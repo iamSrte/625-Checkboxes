@@ -7,8 +7,7 @@
   --text-color: #e9c46a;
   --link-color: #e76f51;
 
-  --backgrond-color-from: #005f73;
-  --backgrond-color-to: #001219;
+  --backgrond-color: #141519;
 }
 
 * {
@@ -21,13 +20,9 @@ body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
-  background: linear-gradient(
-    to bottom,
-    var(--backgrond-color-from),
-    var(--backgrond-color-to)
-  );
+  background: var(--backgrond-color);
   min-height: 100vh;
-  padding: 1rem;
+  padding: 2rem;
   overflow-x: hidden;
 }
 
@@ -83,7 +78,7 @@ button {
   border: none;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 input[type="checkbox"] {
